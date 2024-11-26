@@ -1,0 +1,13 @@
+template:
+  path: shared-database.yaml
+
+entries:
+#  - sh_db_name: AVTR_FEEDS_DEV_SHARE
+#    create_share: false
+#    deprovision: false
+#   #  share_name: AVANTORSCIENCES.<SHARENAME>    #inbound_share_account_locator.share_name
+#    roles:
+#     - name: EXT_RL_AVTR_DEV_AVTR_FEEDS_DEV_SHARE
+#       deprovision: false
+
+ 

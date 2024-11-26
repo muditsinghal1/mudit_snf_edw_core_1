@@ -1,0 +1,26 @@
+template:
+  path: project-membership.yaml
+
+entries:
+
+  # - username: MUDIT.SINGHAL@AVANTORSCIENCES.COM
+  #   roles:
+  #     - name: AD_GRP_FR_PRJ_RL_AVTR_OP_MGMT_ENGINEER
+  #       deprovision:  false
+
+
+  # - username: BALBIR.SINGH@AVANTORSCIENCES.COM
+  #   roles:
+  #     - name: AD_GRP_FR_PRJ_RL_AVTR_OP_MGMT_ENGINEER
+  #       deprovision:  false
+
+
+  # - username: SANDEEP.MANIVANNAN@AVANTORSCIENCES.COM
+  #   roles:
+  #     - name: AD_GRP_FR_PRJ_RL_AVTR_OP_MGMT_ENGINEER
+  #       deprovision:  false
+     
+  - username: SVC_AVTR_OP_MGMT
+    roles:
+      - name: AD_GRP_FR_PRJ_RL_AVTR_OP_MGMT_ENGINEER
+        deprovision:  false

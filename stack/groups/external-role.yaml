@@ -1,0 +1,37 @@
+template:
+  path: external-role.yaml
+
+entries:
+
+
+  # - fo_role_name: AVTR_FEEDS_DEV_SHARE    #EXT_RL_AVTR_DEV_AVTR_FEEDS_DEV_SHARE   ---> AVTR_FEEDS_DEV_SECURE_SHARE_AVTR_CORE
+  #   deprovision: false                         
+  #   create_role: true
+  #   env: DEV
+  #   shares:
+  #   sh_db_name: AVTR_FEEDS_DEV_SHARE
+  #   deprovision_shared_db_access: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
