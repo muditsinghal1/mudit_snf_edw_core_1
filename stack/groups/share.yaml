@@ -16,7 +16,11 @@ entries:
           tables:
             - table_name: ID
               grants_apply: select
-              drop: true
+              drop: false
+            - table_name: NEW_ID
+              grants_apply: select
+              drop: false
+
           # views:
           #   - view_name: STATEMENTS
           #     grants_apply: select
