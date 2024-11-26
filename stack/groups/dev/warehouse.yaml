@@ -1,0 +1,48 @@
+template:
+  path: warehouse.yaml
+
+defaults:
+  scaling_policy: ECONOMY
+  auto_suspend: 600
+  auto_resume: true
+  creditQuota: 100
+  frequency: MONTHLY
+  startTimestamp: IMMEDIATELY
+  destroy:  false
+entries:
+  # - name: FIVETRAN_DEV
+  #   resourceMonitor: AVTR_FIVTRAN_RM
+  #   triggers:
+  #     - threshold:  75
+  #       action: NOTIFY
+  #     - threshold:  100
+  #       action: NOTIFY
+  #     - threshold:  125
+  #       action: NOTIFY
+
+
+  # - name: OP_TESTING_DEV
+  #   destroy: false
+  #   resourceMonitor: AVTR_DEV_OP_TESTING_RM
+  #   triggers:
+  #     - threshold:  75
+  #       action: NOTIFY
+  #     - threshold:  100
+  #       action: NOTIFY
+  #     - threshold:  125
+  #       action: NOTIFY
+
+  # - name: OP_TESTING
+  #   destroy: true
+  #   resourceMonitor: AVTR_DEV_OP_TESTING_RM
+  #   triggers:
+  #     - threshold:  75
+  #       action: NOTIFY
+  #     - threshold:  100
+  #       action: NOTIFY
+  #     - threshold:  125
+  #       action: NOTIFY
+        
+  - name: EDW_CORE_DEV
+    destroy: false
+    resourceMonitor: AVTR_DEV_EDW_CORE_RM

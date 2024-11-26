@@ -1,0 +1,95 @@
+template:
+  path: function-project-role.yaml
+
+entries:
+
+  - fr_role_name: AD_GRP_FR_PRJ_RL_AVTR_DEV_EDW_CORE_ENGINEER
+    create_role: true 
+    deprovision: false
+    roles:
+      - name: AR_RL_AVTR_DEV_EDW_CORE
+        deprovision: false
+      - name: DR_RL_AVTR_P_DEV_EDW_CORE_RW
+        deprovision: false
+      # - name: DR_RL_AVTR_S_DEV_ATG_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_CUSTOMER_SERVICE_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_IM_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_ITS_ARCHIVAL_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_ITS_MASTER_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_ITS_TPE_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_ITS_TPN_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_SAP_CFIN_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_SAP_EAGLE_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_SAP_EWM_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_SAP_UNICORN_RO
+      #   deprovision: false	
+      # - name: DR_RL_AVTR_S_DEV_STIBO_RO
+      #   deprovision: false	
+
+
+  # - fr_role_name: AD_GRP_FR_PRJ_RL_AVTR_DEV_OP_TESTING_ENGINEER
+  #   create_role: false
+  #   deprovision: false
+  #   roles:
+  #     - name: AR_RL_AVTR_DEV_OP_TESTING
+  #       deprovision: false
+  #     - name: DR_RL_AVTR_P_DEV_OP_TESTING_RW
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_ATG_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_CUSTOMER_SERVICE_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_IM_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_ITS_ARCHIVAL_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_ITS_MASTER_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_ITS_TPE_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_ITS_TPN_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_SAP_CFIN_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_SAP_EAGLE_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_SAP_EWM_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_SAP_UNICORN_RO
+  #       deprovision: false	
+  #     - name: DR_RL_AVTR_S_DEV_STIBO_RO
+  #       deprovision: false	
+  #     - name: EXT_RL_AVTR_DEV_AVTR_FEEDS_DEV_SHARE
+  #       deprovision: false	
+
+  - fr_role_name: AD_GRP_FR_PRJ_RL_AVTR_DEV_EDW_CORE_READER
+    create_role: true
+    deprovision: false
+    roles:
+      - name: AR_RL_AVTR_DEV_EDW_CORE
+        deprovision: false
+      - name: DR_RL_AVTR_P_DEV_EDW_CORE_RO
+        deprovision: false
+
+
+  # - fr_role_name: AD_GRP_FR_PRJ_RL_AVTR_DEV_OP_TESTING_READER
+  #   create_role: false
+  #   deprovision: false
+  #   roles:
+  #     - name: AR_RL_AVTR_DEV_OP_TESTING
+  #       deprovision: false
+  #     - name: DR_RL_AVTR_P_DEV_OP_TESTING_RO
+  #       deprovision: false	
+
+
+
