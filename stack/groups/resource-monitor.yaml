@@ -73,15 +73,15 @@ entries:
   #   - threshold: 100
   #     action: NOTIFY
 
-  # - rmName: AVTR_PROD_EDW_CORE_RM
-  #   destory: false  
-  #   triggers:
-  #   - threshold: 75
-  #     action: NOTIFY
-  #   - threshold: 90
-  #     action: NOTIFY
-  #   - threshold: 100
-  #     action: NOTIFY
+  - rmName: TEST_RESOLVE_ALL_RM
+    destory: false  
+    triggers:
+    - threshold: 75
+      action: NOTIFY
+    - threshold: 90
+      action: NOTIFY
+    - threshold: 100
+      action: NOTIFY
 
   - rmName: AVTR_OP_MGMT_RM
     destory: false  
