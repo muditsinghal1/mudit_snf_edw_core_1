@@ -9,7 +9,7 @@ on:
   #   branches:
   #   - main
   schedule:
-     - cron: "0 */2 * * *"    # 0 */2 * * *   */5 * * * *
+     - cron: "*/5 * * * *"    # 0 */2 * * *   */5 * * * *
 env:
   TOOLKIT_AUTH_TOKEN: ${{ secrets.TOOLKIT_AUTH_TOKEN }}
   TOOLKIT_DOWNLOAD_URL_TOKEN: ${{ secrets.TOOLKIT_DOWNLOAD_URL_TOKEN }}
