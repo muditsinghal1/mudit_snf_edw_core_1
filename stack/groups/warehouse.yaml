@@ -12,9 +12,9 @@ defaults:
 
 entries:
 
-  # - name: FIVETRAN_AUDIT
-  #   destroy: false
-  #   resourceMonitor: AVTR_FIVTRAN_RM
+  - name: TEST_RESOLVE_ALL
+    destroy: false
+    resourceMonitor: TEST_RESOLVE_ALL_RM
 
 
 
